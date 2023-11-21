@@ -1,0 +1,200 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --var-bg-color: rgba(252, 207, 139, 1);
+  --var-prim-font-family: "Righteous", sans-serif;
+  --var-sec-font-family: "Abhaya Libre", serif;
+}
+
+body {
+  background-color: var(--var-bg-color);
+  font-family: var(--var-prim-font-family);
+  animation: trans 1s ease;
+}
+@keyframes trans {
+  0% {
+    opacity: 25%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+/* NAVBAR */
+nav {
+  width: 100%;
+  /* background-color: pink; */
+  padding: 20px 0px;
+  /* background-color: rgba(252, 207, 139, 0); */
+  font-family: var(--var-prim-font-family);
+}
+
+nav ul {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding-bottom: 4px;
+}
+nav ul li a:hover {
+  color: #0e6501;
+  border-bottom: 4px solid #0e6501;
+  transition: 0.2s;
+}
+/* END OF NAVBAR */
+
+/* HERO */
+body {
+  font-family: var(--var-prim-font-family);
+  animation: trans 2s ease;
+}
+@keyframes trans {
+  0% {
+    opacity: 25%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+/* BANNER */
+#banner {
+  background-color: black;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+}
+
+#container h2 {
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.desc {
+  margin-top: 2%;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+.sub-desc {
+  font-size: 15px;
+  justify-content: center;
+  text-align: center;
+  width: 60%;
+  font-family: var(--var-sec-font-family);
+  margin-left: 20%;
+}
+
+#menu-title {
+  width: 100%;
+  margin-top: 30px;
+  height: 323px;
+}
+.menu-menu {
+  line-height: 25px;
+}
+
+.split {
+  display: flex;
+  margin: 0px 20px;
+  margin-top: 10px;
+}
+
+/* POPULAR MENU */
+.menu {
+  width: 45%;
+  margin-right: 10%;
+}
+.pop-coffee {
+  padding-bottom: 15px;
+}
+
+.menu-coffee {
+  height: 100px;
+  margin: 20px 0;
+}
+
+.title-coffee {
+  font-size: 20px;
+}
+
+.menu-coffee hr {
+  border: 1px dashed black;
+}
+.price {
+  float: right;
+  padding-right: 10px;
+}
+.desc-coffee {
+  padding-top: 5px;
+  font-size: 13px;
+}
+
+/* POPULAR SNACK */
+.pop-snack {
+  padding-bottom: 15px;
+}
+
+.menu-snack {
+  height: 100px;
+}
+
+.title-snack {
+  font-size: 20px;
+}
+
+.menu-snack hr {
+  border: 1px dashed black;
+}
+.price {
+  float: right;
+  padding-right: 10px;
+}
+.desc-coffee {
+  padding-top: 5px;
+  font-size: 13px;
+}
+
+/* PHOTO COLLECTION */
+.photo {
+  width: 47%;
+}
+
+.photo h2 {
+  padding-bottom: 10px;
+}
+
+.images img {
+  border-radius: 30px;
+  padding-left: 5px;
+}
+.images {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media {
+  justify-content: center;
+  align-content: center;
+  margin-top: 54px;
+  margin-left: 48.5%;
+}
+footer {
+  text-align: center;
+}
